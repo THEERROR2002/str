@@ -1,0 +1,26 @@
+#frame {
+	border: 5px solid pink;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	background-image: url('astolfo.jpg');
+	background-repeat: no-repeat;
+	background-size: 400px;
+	color: pink;
+}
+
+#msg {
+	margin: auto;
+	border: 5px solid pink;
+	width: 400px;
+	height: 50px;
+	margin-top: 2px;
+	font-size: 23px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-text-stroke: 0.2px pink;
+}
+
+body {
+	background-color: lightblue;
+}
