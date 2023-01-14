@@ -1,56 +1,26 @@
-body {
-	background-color: #141414;
-	font-family: 'Roboto', sans-serif;
-}
-#continue {
-	text-align: center;
-	margin-top: 50vh;
-}
-
-video {
-	visibility: hidden;
-	position: fixed;
- 	right: 0;
- 	bottom: 0;
-  	min-width: 100%; 
- 	min-height: 100%;
-}
-
-a {
-	color: ghostwhite;
-	font-size: 40px;
-	opacity: 0.6;
-  	transition: 0.3s;
-  	user-select: none;
-}
-
-a:hover {
-	opacity: 1;
-}
-
-#bio {
-	border: 3px solid white;
-	border-radius: 5px;
-	width: 450px;
-	height: 100px;
-	position: sticky;
-	background-color: #141414;
+#frame {
+	border: 5px solid pink;
 	margin: auto;
-	margin-top: -150px;
-	color: whitesmoke;
+	width: 400px;
+	height: 400px;
+	background-image: url('s.png');
+	background-repeat: no-repeat;
+	background-size: 400px;
+	color: pink;
 }
-#bio-title {
+
+#msg {
+	margin: auto;
+	border: 5px solid pink;
+	width: 400px;
+	height: 50px;
+	margin-top: 2px;
+	font-size: 23px;
 	text-align: center;
-	font-size: 30px;
-	margin-top: 3px;
-	user-select: none;
+	font-weight: bold;
+	-webkit-text-stroke: 0.2px pink;
 }
-#icons {
-	margin-left: 105px;
+
+body {
+	background-color: lightblue;
 }
-img {
-	width: 50px;
-	float: left;
-	margin-left: 20px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
